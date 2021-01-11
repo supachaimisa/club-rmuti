@@ -19,7 +19,9 @@
 
     <!--Header-part-->
     <div id="header">
-        <h1><a href="<?php echo base_url() . 'theme/matrix-admin/' ?>dashboard.html">Matrix Admin</a></h1>
+        
+        <h3 style="color: white; padding-left: 32px; padding-top:16px;">Club RMUTI</h3>
+        <!-- <h1>ClubRMUTI</h1> -->
     </div>
     <!--close-Header-part-->
 
@@ -27,7 +29,10 @@
     <!--top-Header-menu-->
     <div id="user-nav" class="navbar navbar-inverse">
         <ul class="nav">
-            <li class="dropdown" id="profile-messages"><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i> <span class="text">Welcome User</span><b class="caret"></b></a>
+            <li class="dropdown" id="profile-messages">
+                <a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle">
+                    <i class="icon icon-user"></i> 
+                <span class="text">Welcome User</span><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
                     <li class="divider"></li>
@@ -61,7 +66,14 @@
     <!--sidebar-menu-->
     <div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i>Dashbroad</a>
         <ul>
-            <li class="active"><a href="<?php echo base_url() . 'theme/matrix-admin/' ?>index.html"><i class="icon icon-home"></i> <span>หน้าหลัก</span></a> </li>
+            <li class="active"><a href="<?php echo base_url() ?>"><i class="icon icon-home" style="font-size: 14pt;"></i> <span style="font-size: 14pt;">หน้าหลัก</span></a> </li>
+            <li class="submenu"> <a href="#"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 14pt;">จัดการชมรม</span></a>
+                <ul>
+                    <li><a href="<?php echo base_url() . 'theme/matrix-admin/' ?>form-validation.html"><span style="font-size: 12pt;">สร้างชมรม</span></a></li>
+                    <li><a href="<?php echo base_url() . 'joinclub'?>"><span style="font-size: 12pt;">เข้าร่วมชมรม</span></a></li>
+                </ul>
+            </li>
+            <li><a href="<?php echo base_url() . 'joinclub' ?>"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 14pt;">เข้าร่วมชมรม</span></a> </li>
             <li> <a href="<?php echo base_url() . 'theme/matrix-admin/' ?>charts.html"><i class="icon icon-signal"></i> <span>Charts &amp; graphs</span></a> </li>
             <li> <a href="<?php echo base_url() . 'theme/matrix-admin/' ?>widgets.html"><i class="icon icon-inbox"></i> <span>Widgets</span></a> </li>
             <li><a href="<?php echo base_url() . 'theme/matrix-admin/' ?>tables.html"><i class="icon icon-th"></i> <span>Tables</span></a></li>
