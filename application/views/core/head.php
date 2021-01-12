@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/matrix-admin/' ?>css/jquery.gritter.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
     <style>
-        #user-nav{
+        #user-nav {
             left: auto !important;
             right: 0 !important;
         }
@@ -25,7 +25,7 @@
 
     <!--Header-part-->
     <div id="header">
-        
+
         <h3 style="color: white; padding-left: 32px; padding-top:16px;">Club RMUTI</h3>
         <!-- <h1>ClubRMUTI</h1> -->
     </div>
@@ -35,7 +35,7 @@
     <!--top-Header-menu-->
     <div id="user-nav" class="navbar navbar-inverse" style="right:0;">
         <ul class="nav">
-           
+
             <li class="dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span> <span class="label label-important">5</span> <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a class="sAdd" title="" href="#"><i class="icon-plus"></i> new message</a></li>
@@ -51,8 +51,8 @@
             <li class=""><a title="" href="<?php echo base_url() . 'theme/matrix-admin/' ?>login.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
             <li class="dropdown" id="profile-messages" style="float: right;">
                 <a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle">
-                    <i class="icon icon-user"></i> 
-                <span class="text">Welcome User</span><b class="caret"></b></a>
+                    <i class="icon icon-user"></i>
+                    <span class="text">Welcome User</span><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
                     <li class="divider"></li>
@@ -66,10 +66,10 @@
     <!--close-top-Header-menu-->
     <!--start-top-serch-->
     <div id="search">
-        
+
         <!-- <input type="text" placeholder="Search here..." />
         <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button> -->
-      
+
     </div>
     <!--close-top-serch-->
     <!--sidebar-menu-->
@@ -79,10 +79,15 @@
             <li class="submenu"> <a href="#"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 10pt;">จัดการชมรม</span></a>
                 <ul>
                     <li><a href="<?php echo base_url() . 'theme/matrix-admin/' ?>form-validation.html"><span style="font-size: 10pt;">สร้างชมรม</span></a></li>
-                    <li><a href="<?php echo base_url() . 'joinclub'?>"><span style="font-size: 10pt;">เข้าร่วมชมรม</span></a></li>
+                    <li><a href="<?php echo base_url() . 'joinclub' ?>"><span style="font-size: 10pt;">เข้าร่วมชมรม</span></a></li>
                 </ul>
             </li>
-            <li><a href="<?php echo base_url() . 'joinclub' ?>"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 10pt;">เข้าร่วมชมรม</span></a> </li>
+
+            <li><a href="<?php echo base_url() . 'user' ?>"><i class="icon icon-user-md" style="font-size: 14pt;"></i> <span style="font-size: 10pt;">จัดการผู้ใช้</span></a> </li>
+            <li><a href="<?php echo base_url() . 'joinclub' ?>"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 10pt;">จัดการผู้ใช้</span></a> </li>
+            <li><a href="<?php echo base_url() . 'joinclub' ?>"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 10pt;">จัดการผู้ใช้</span></a> </li>
+            <li><a href="<?php echo base_url() . 'joinclub' ?>"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 10pt;">จัดการผู้ใช้</span></a> </li>
+            <li><a href="<?php echo base_url() . 'joinclub' ?>"><i class="icon icon-edit" style="font-size: 14pt;"></i> <span style="font-size: 10pt;">จัดการผู้ใช้</span></a> </li>
             <li> <a href="<?php echo base_url() . 'theme/matrix-admin/' ?>charts.html"><i class="icon icon-signal"></i> <span>Charts &amp; graphs</span></a> </li>
             <li> <a href="<?php echo base_url() . 'theme/matrix-admin/' ?>widgets.html"><i class="icon icon-inbox"></i> <span>Widgets</span></a> </li>
             <li><a href="<?php echo base_url() . 'theme/matrix-admin/' ?>tables.html"><i class="icon icon-th"></i> <span>Tables</span></a></li>
