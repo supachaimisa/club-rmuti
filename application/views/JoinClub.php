@@ -6,23 +6,47 @@
   </div>
   <!--End-breadcrumbs-->
   <div class="container-fluid">
+
     <div class="row-fluid">
       <div class="span12">
         <div class="widget-box">
           <div class="widget-title"> <span class="icon" style="font-size: 14pt;"> เข้าร่วมชมรม </span>
-            
+
           </div>
           <div class="widget-content">
             <!-- <a id="add-event" data-toggle="modal" href="#modal" class="btn btn-inverse btn-mini"><i class="icon-plus icon-white"></i> Add new event</a> -->
             <div class="row-fluid">
               <div class="span4">
-                <input type="text" class="span11" placeholder="กรุณากรอกข้อมูล">
+                <label for="name">ชื่อชมรม</label>
+                <input type="text" class="span11" name="name" placeholder="กรุณากรอกข้อมูล">
               </div>
               <div class="span4">
-                <input type="text" class="span11" placeholder="กรุณากรอกข้อมูล">
+                <label for="name">ชื่อชมรม</label>
+                <input type="text" class="span11" name="name" placeholder="กรุณากรอกข้อมูล">
               </div>
               <div class="span4">
-                <input type="text" class="span11" placeholder="กรุณากรอกข้อมูล">
+                <label for="name">ชื่อชมรม</label>
+                <input type="text" class="span11" name="name" placeholder="กรุณากรอกข้อมูล">
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span4">
+                <label for="name">ชื่อชมรม</label>
+                <input type="text" class="span11" name="name" placeholder="กรุณากรอกข้อมูล">
+              </div>
+              <div class="span4">
+                <label for="name">ชื่อชมรม</label>
+                <input type="text" class="span11" name="name" placeholder="กรุณากรอกข้อมูล">
+              </div>
+              <div class="span4">
+                <label for="name">ชื่อชมรม</label>
+                <input type="text" class="span11" name="name" placeholder="กรุณากรอกข้อมูล">
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span12" align="center">
+              <button class="btn btn-success">btn-success</button>
+              <button class="btn btn-inverse">btn-inverse</button>
               </div>
             </div>
           </div>
